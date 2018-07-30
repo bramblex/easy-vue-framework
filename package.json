@@ -1,0 +1,15 @@
+{
+  "name": "wk-vue-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "乔健 <qjnight@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "path-to-regexp": "^2.2.1",
+    "vuex": "^3.0.1"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
+}

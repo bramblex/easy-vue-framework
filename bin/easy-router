@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const shell = require('shelljs')
+
+function createComponents(routes, endpoint) {
+    shell.cd(endpoint)
+    shell.mkdir('asserts')
+    shell.mkdir('components')
+    shell.mkdir('service')
+
+    shell.touch('Index.vue')
+    shell.touch('store.js')
+    shell.touch('route.js')
+
+    shell.mkdir('scene')
+
+    //     for (const { path, children } of routes) {
+    //         const current = path.join(parent, path)
+    //         parseVueRoutes(children, current)
+    //     }
+}
